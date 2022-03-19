@@ -28,6 +28,14 @@ def isUnique(string):
 
   return True
 
+# O(n) time complexity, O(1) space complexity?
+def is_unique_chars_pythonic(string):
+    return len(set(string)) == len(string)
+
 print(isUnique(test1))
 print(isUnique(test2))
 print(isUnique(test3))
+
+print(is_unique_chars_pythonic(test1))
+print(is_unique_chars_pythonic(test2))
+print(is_unique_chars_pythonic(test3))
