@@ -7,15 +7,23 @@
 
 
 def zero_matrix(matrix):
-  cols = len(matrix)
-  rows = len(matrix[0])
+  rows = len(matrix)
+  cols = len(matrix[0])
 
-  curr_col = 0
   curr_row = 0
+  curr_col = 0
 
-  for i in range(len(matrix)):
-    for j in range(len(matrix[i])):
-      pass
+  # for i in range(len(matrix)):
+  #   for j in range(len(matrix[i])):
+  #     if matrix[i][j] == 0:
+
+
+    # if curr_row < (len(matrix) - 1):
+    #   curr_row += 1
+    #   pass
+
+
+  return matrix
 
 
 matrix1 = [

@@ -11,7 +11,8 @@ def oneEdit(s1, s2):
   if s1 == s2:
     return True
 
-  return False
+
+
 
 
 print(oneEdit("pale","ple"))
