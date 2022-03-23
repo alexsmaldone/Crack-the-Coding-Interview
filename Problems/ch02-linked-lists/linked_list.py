@@ -60,3 +60,13 @@ class LinkedList:
   @classmethod
   def generate(cls, k, min_value, max_value):
     return cls(random.choices(range(min_value, max_value), k=k))
+
+
+class DoublyLinkedList(LinkedList):
+  def add(self, value):
+    if self.head is None:
+      self.tail = self.head = Node(value)
+    else:
+      self.tail.next = Node(value, None, self.tail)
+      self.tail = self.tail.next
+    return self
