@@ -1,4 +1,3 @@
-# comment change
 
 # O(n)T and O(1)S
 def isValidSubsequence(array, sequence):
