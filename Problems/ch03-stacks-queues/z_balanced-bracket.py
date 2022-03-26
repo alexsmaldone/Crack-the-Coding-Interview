@@ -15,7 +15,6 @@ def balancedBrackets(string):
         stack.pop()
       else:
         return False
-    print(stack)
   return len(stack) == 0
 
 test = "([])(){}(())()()"
